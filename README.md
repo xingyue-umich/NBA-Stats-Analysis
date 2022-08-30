@@ -63,7 +63,7 @@ SELECT `Record year`,min(Age),avg(Age),max(Age) FROM player_record
 GROUP BY `Record year`;
 ```
 
-![Result](/Age.png)
+![Result](/fig/Age.png)
 
 :bulb: In general, NBA players are getting younger on average over time.
 
@@ -85,7 +85,7 @@ group by Age_group
 order by Avg_points desc
 ```
 
-![Result](/Age_Score.png)
+![Result](/fig/Age_Score.png)
 
 :bulb: From the Result shown above, players between 25 - and 30 tend to score the most. It is reasonable since they are relatively young
 and have certain experience.
@@ -104,7 +104,7 @@ order by Points desc
 limit 5;
 ```
 
-![Result](/Top5.png)
+![Result](/fig/Top5.png)
 
 
 :bulb: Surprisingly (at least to me), 2 of the top 5 points leaders are in the teams that winning percentages are below 50%.
